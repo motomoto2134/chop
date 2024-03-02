@@ -1,0 +1,51 @@
+.it{
+    width: 300px;
+ margin:0 auto ;  
+ display: block ;
+}
+.topo{
+    width: 300px;
+    margin: 0 auto;
+text-align: center;
+}
+.title_shop{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.SSSR{
+    width: 300px;
+    margin: 0 auto;
+text-align: center; 
+}
+
+.lol{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+.pom{
+    width: 60px;
+    height: 20px;
+    background: khaki;
+    margin: 0 auto;
+   
+display: block;
+ 
+    border-radius:20px ;
+box-shadow: 0px 0px 5px 2px rgb(170, 30, 25);
+background: blue;
+}
+
+.poiActive{
+    width: 60px;
+    height: 20px;
+    background: khaki;
+    margin: 0 auto;
+   
+display: block;
+ 
+    border-radius:20px ;
+box-shadow: 0px 0px 5px 2px rgb(6, 237, 6);
+background: white;
+}

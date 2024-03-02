@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+<body>
+  <header class="header ">
+      <img class="home_tap" src="img/img (5).svg" alt="">
+    <div class="container">
+        <div class="logo">
+      <header>         
+        </div>  
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_ltem">
+                    <a href="#home" class="nav_link">главная</a>
+                </li>
+                <li class="nav_ltem">
+                    <a href="#gallery" class="nav_link">Галерея</a>
+                </li>
+                <li class="nav_ltem">
+                    <a href="#video" class="nav_link">видео</a>
+                </li>
+                <li class="nav_ltem">
+                    <a href="#about" class="nav_link">О Сталине</a>
+                </li>
+                <li class="nav_ltem">
+                    <a href="motor.html" class="nav_link">магазин</a>
+                </li>
+            </ul>
+        </nav> 
+        <button class="button" onclick="burgerClick()">
+ <div class="button_line"></div>
+ <div class="button_line"></div>
+ <div class="button_line"></div>
+        </button>
+    </div>
+    
+</header>
+<main>
+   
+    <section id="home" class="home">
+        <div class="container">
+         <img  src="img/img (3).svg" alt="" class="home_img">
+         <div class="home_info">
+            <h1 class="home_title">Сталин</h1>
+            <p class="home_desc">
+                Ио́сиф Виссарио́нович Ста́лин (настоящая фамилия Джугашви́ли (груз. იოსებ ჯუღაშვილი); 6 [18] декабря 1878 (по официальной версии — 9 [21] декабря 1879),)
+            </p>
+            <button id="T34" class="home_btn" onclick="change()">
+позвонить Сталину
+            </button>
+         </div>
+        </div>    
+    </section>
+    <section id="about" class="about">
+        <h1 class="about_title">
+            о Сталине
+        </h1>
+        <div class="container">
+            <ul class="about_info">
+                <li class="about_item">
+                    <h1 class="about_text">ум</h1>
+                    <div class="rating">
+                        <div class="rating1"></div>
+                    </div>
+                </li>
+                <li class="about_item">
+                    <h1 class="about_text">растреливать</h1>
+                    <div class="rating">
+                        <div class="rating2"></div>
+                    </div>
+                </li>
+                <li class="about_item">
+                    <h1 class="about_text">взгляд</h1>
+                    <div class="rating">
+                        <div class="rating3"></div>
+                    </div>
+                </li>
+            </ul>
+            <img src="img/img-group.svg" alt="" class="about_img">
+        </div>
+    </section>
+    <section id="video"  class="video">
+        <h1 class="video_title">
+            Видео
+        </h1>
+        <div class="video_container">
+            <iframe class= "video_content" src="https://www.youtube.com/embed/6wUWSBOJJZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+  </section>  
+  <section  id="gallery" class="gallery">
+    <h1 class="gallery_title">Галерея</h1>
+    <ul class="gallery_list">
+        <li class="gallery_item">
+            <a href="img/img1.svg" class="gallery_link lightzoom">
+                <img src="img/img1.svg" alt="" class="gallery_img">
+            </a>
+        </li>
+        <li class="gallery_item">
+            <a href="img/img2.svg" class="gallery_link lightzoom">
+                <img src="img/img2.svg" alt="" class="gallery_img">
+            </a>
+        </li>
+        <li class="gallery_item">
+            <a href="img/img3.svg" class="gallery_link lightzoom">
+                <img src="img/img3.svg" alt="" class="gallery_img">
+            </a>
+        </li>
+        <li class="gallery_item">
+            <a href="img/img4.svg" class="gallery_link lightzoom">
+                <img src="img/img4.svg" alt="" class="gallery_img">
+            </a>
+        </li>
+        <li class="gallery_item">
+            <a href="img/img5.svg" class="gallery_link lightzoom">
+                <img src="img/img5.svg" alt="" class="gallery_img">
+            </a>
+        </li>
+        <li class="gallery_item">
+            <a href="img/img6.svg" class="gallery_link lightzoom">
+                <img src="img/img6.svg" alt="" class="gallery_img">
+            </a>
+        </li>
+    </ul>
+  </section>
+  <section class="basketp">
+    <div class="basker_content">
+       <button class="knop"> <img src="img/kor.png" alt=""></button>
+        <p class="rub">0руб</p>
+    </div>
+        </section>
+</main>
+<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+<script type="text/javascript">
+    jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+</script>
+<div class="container_podval">
+   <h2>   Ио́сиф Виссарио́нович Ста́лин</h2>
+</div>
+<script src="js/btn.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/poioi.js"></script>
+</body>
+</html>
